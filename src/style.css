@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'JetBrainsMonoNerdFont';
+    src: url('/fonts/JetBrainsMonoNerdFont-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Include other font weights and styles as necessary */
+@font-face {
+    font-family: 'JetBrainsMonoNerdFont';
+    src: url('/fonts/JetBrainsMonoNerdFont-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.codeflask__textarea {
+  font-family: 'JetBrainsMonoNerdFont', monospace !important;
+  caret-color: #fff !important;
+}
+
+.codeflask__code {
+  font-family: 'JetBrainsMonoNerdFont', monospace !important;
+}
